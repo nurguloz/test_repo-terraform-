@@ -1,4 +1,4 @@
 resource "azurerm_resource_group" "api_rg" {
-  name     = "erol"
+  name     = var.rg_name
   location = "West Europe"
 }
